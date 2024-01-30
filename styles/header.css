@@ -17,16 +17,37 @@ header {
 	background-position: center;
 }
 
-.company-button {
-	position: relative;
-	right: 400px;
+.company-button, .safety-button, .help-button, .products-button, .login-button, .signup-button {
+	right: 1050px;
 	background-color: #022c60;
 	color: white;
 	padding: 16px;
 	font-size: 16px;
 	border: none;
 	border-radius: 8px;
-	margin-right: -10px;
+	margin-right: 50px;
+}
+
+.safety-button {
+	margin-right: 50px;
+}
+
+.help-button {
+	margin-right: 50px;
+}
+
+.products-button {
+	margin-right: 50px;
+}
+
+.login-button {
+	margin-right: 50px;
+}
+
+.signup-button {
+	margin-right: 50px;
+	background-color: #FF9002;
+	color: #022c60;
 }
 
 .dropdown {
@@ -41,7 +62,7 @@ header {
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
-	right: 330px;
+	right: 670px;
 }
 
 .dropdown-content a {
@@ -55,4 +76,4 @@ header {
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .company-button {background-color: #99AABF;}
+.dropdown:hover .company-button {background-color: #FFB85D;}
