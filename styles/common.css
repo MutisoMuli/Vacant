@@ -38,4 +38,29 @@ body {
     border-radius: 8px;
     margin-top: 10px;
     margin-left: 10%;
+    transition: background-color 0.3s; cursor: 0.3s;
+}
+
+.location-button:hover {
+    background-color: #FF9002;
+    color: white;
+    cursor: pointer;
+}
+
+.white-background-content {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    z-index: 1;
+}
+
+.white-background-content {
+    text-align: left;
+    padding: 20px;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 0;
+    color: #022c60;
 }

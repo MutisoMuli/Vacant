@@ -16,7 +16,12 @@ header {
 	background-position: center;
 }
 
-.company-button, .safety-button, .help-button, .products-button, .login-button, .signup-button {
+.company-button,
+.safety-button,
+.help-button, 
+.products-button,
+.login-button, 
+.signup-button {
 	right: 1050px;
 	background-color: #022c60;
 	color: white;
@@ -25,6 +30,7 @@ header {
 	border: none;
 	border-radius: 8px;
 	margin-right: 50px;
+	cursor: pointer;
 }
 
 .safety-button {
@@ -35,7 +41,7 @@ header {
 	margin-right: 50px;
 }
 
-.products-button {
+.search-filter-button {
 	margin-right: 50px;
 }
 
@@ -57,22 +63,57 @@ header {
 .dropdown-content {
 	display: none;
 	position: absolute;
-	background-color: rgba(153, 170, 191, 0);
+	background-color: #022c60);
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
-	right: 670px;
+	right: 690px;
 }
 
 .dropdown-content a {
+	color: #FF9002;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .company-button {
+	background-color: #FFB85D;
+}
+
+.signup-button:hover {
+	background-color: #FFB85D;
+}
+
+.search-filter-dropdown {
+	position: absolute;
+    display: none;
+    background-color: #FFB85D;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 250px;
+}
+
+.search-filter-dropdown a {
 	color: white;
 	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .search-filter-dropdown {
+    display: block;
+}
 
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .company-button {background-color: #FFB85D;}
+.search-filter-dropdown button:hover {
+	background-color: #FFB85D;
+}
